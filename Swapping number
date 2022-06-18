@@ -1,0 +1,19 @@
+public class basic{
+    public static void main(String[] args) {
+        
+
+        float first = 1.20f, second = 2.30f;
+
+        System.out.println("Before swap");
+        System.out.println("1st number" + first);
+        System.out.println("Second number" + second);
+
+        //logic 
+        float temporary = first;
+        first = second;
+        second = temporary;
+
+        System.out.println("1st number" + first);
+        System.out.println("Second number" + second);
+    }
+}
