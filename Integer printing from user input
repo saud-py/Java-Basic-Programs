@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class basic{
+    public static void main(String[] args){
+        Scanner reader = new Scanner(System.in); //
+        System.out.println("Enter the number: ");
+
+        //nextInt() method takes integer as input from the keyboard
+        int number = reader.nextInt();
+        
+        System.out.println("The number entered is " + number);
+
+    }
+}
