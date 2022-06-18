@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class basic{
+    public static void main(String[] args) {
+    
+        double number = -23;
+
+        if(number < 0.0)
+            System.out.println("It is negative number");
+
+        else if(number > 0.0)
+            System.out.println("It is a positive number");
+        else 
+            System.out.println(number + " is 0.");
+    }
+}
